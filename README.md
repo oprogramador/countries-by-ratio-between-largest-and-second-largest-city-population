@@ -1,5 +1,7 @@
 # Countries by ratio between largest and second largest city population
 
+The source is https://github.com/zeke/all-the-cities so beside the countries, the list contains some dependent territories as well, moreover some data may be little deprecated.
+
 |country|largest city name|largest city population|second largest city name|second largest city population|ratio|
 |----|----|----|----|----|----|
 |Svalbard and Jan Mayen|Longyearbyen|2060|Olonkinbyen|14|147.143|
