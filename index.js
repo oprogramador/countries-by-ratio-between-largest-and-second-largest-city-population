@@ -27,6 +27,8 @@ const orderedResult = _.orderBy(filteredResult, item => -item.ratio);
 
 const prettyResult = orderedResult.map(item => ({
   ...item,
+  'largest city population': item['largest city population'].toLocaleString(),
+  'second largest city population': item['second largest city population'].toLocaleString(),
   ratio: item.ratio.toFixed(3),
 }));
 
