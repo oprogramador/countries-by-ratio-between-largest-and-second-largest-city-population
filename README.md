@@ -3,7 +3,7 @@
 The source is https://github.com/zeke/all-the-cities so beside the countries, the list contains some dependent territories as well, moreover some data may be little deprecated.
 
 |country|largest city name|largest city population|second largest city name|second largest city population|ratio|
-|----|----|----|----|----|----|
+|----|----|---:|----|---:|---:|
 |Svalbard and Jan Mayen|Longyearbyen|2,060|Olonkinbyen|14|147.143|
 |Sao Tome and Principe|São Tomé|53,300|Santo António|1,156|46.107|
 |Barbados|Bridgetown|98,511|Speightstown|3,634|27.108|
