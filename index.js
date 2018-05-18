@@ -25,4 +25,9 @@ const filteredResult = result.filter(item => item.ratio !== Infinity && item.rat
 
 const orderedResult = _.orderBy(filteredResult, item => -item.ratio);
 
-console.log(jsonToMarkdown(orderedResult, Object.keys(orderedResult[0])));
+const prettyResult = orderedResult.map(item => ({
+  ...item,
+  ratio: item.ratio.toFixed(3),
+}));
+
+console.log(jsonToMarkdown(prettyResult, Object.keys(prettyResult[0])));
