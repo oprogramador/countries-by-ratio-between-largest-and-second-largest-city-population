@@ -20,6 +20,6 @@
     "all-the-cities": "^2.0.1",
     "i18n-iso-countries": "^3.6.3",
     "json-to-markdown": "^1.0.4",
-    "lodash": "^4.17.13"
+    "lodash": "^4.17.19"
   }
 }
